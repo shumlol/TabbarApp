@@ -8,12 +8,23 @@
 import UIKit
 
 class StartViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    
+    //override func viewDidLoad() {
+    //    super.viewDidLoad()
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let tabBar = segue.destination as? UITabBarController else { return }
+        guard let viewControllers = tabBar.viewControllers else { return }
+        
+        for viewController in viewControllers {
+            if let firstVC = viewController as? FirstViewController {
+                firstVC.view.backgroundColor = .systemOrange
+            } else if let secondVC = viewController as? SecondViewController {
+                secondVC.view.backgroundColor = .systemMint
+            }
+            
+        }
+        
+        
     }
-
-
 }
-
