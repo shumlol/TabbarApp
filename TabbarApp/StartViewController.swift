@@ -21,10 +21,15 @@ class StartViewController: UIViewController {
                 firstVC.view.backgroundColor = .systemOrange
             } else if let secondVC = viewController as? SecondViewController {
                 secondVC.view.backgroundColor = .systemMint
+            } else if let navigationVC = viewController as? UINavigationController {
+                guard let thirdVC = navigationVC.topViewController as? ThirdViewController else {
+                    return
+                }
+                thirdVC.title = "Third Screen"
+                thirdVC.view.backgroundColor = .systemRed
             }
             
+            
         }
-        
-        
     }
 }

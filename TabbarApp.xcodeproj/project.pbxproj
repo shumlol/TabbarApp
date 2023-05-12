@@ -15,6 +15,8 @@
 		8B7881BE2A0E719E0073C6AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B7881BC2A0E719E0073C6AD /* LaunchScreen.storyboard */; };
 		8B7881C62A0E73580073C6AD /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7881C52A0E73580073C6AD /* FirstViewController.swift */; };
 		8B7881C82A0E739B0073C6AD /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7881C72A0E739B0073C6AD /* SecondViewController.swift */; };
+		8B7881CA2A0E76C80073C6AD /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7881C92A0E76C80073C6AD /* ThirdViewController.swift */; };
+		8B7881CC2A0E77B60073C6AD /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7881CB2A0E77B60073C6AD /* TabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		8B7881BF2A0E719E0073C6AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B7881C52A0E73580073C6AD /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		8B7881C72A0E739B0073C6AD /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		8B7881C92A0E76C80073C6AD /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		8B7881CB2A0E77B60073C6AD /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +66,11 @@
 			children = (
 				8B7881B12A0E719D0073C6AD /* AppDelegate.swift */,
 				8B7881B32A0E719D0073C6AD /* SceneDelegate.swift */,
+				8B7881CB2A0E77B60073C6AD /* TabBarViewController.swift */,
 				8B7881B52A0E719D0073C6AD /* StartViewController.swift */,
 				8B7881C52A0E73580073C6AD /* FirstViewController.swift */,
 				8B7881C72A0E739B0073C6AD /* SecondViewController.swift */,
+				8B7881C92A0E76C80073C6AD /* ThirdViewController.swift */,
 				8B7881B72A0E719D0073C6AD /* Main.storyboard */,
 				8B7881BA2A0E719E0073C6AD /* Assets.xcassets */,
 				8B7881BC2A0E719E0073C6AD /* LaunchScreen.storyboard */,
@@ -148,6 +154,8 @@
 				8B7881C62A0E73580073C6AD /* FirstViewController.swift in Sources */,
 				8B7881B22A0E719D0073C6AD /* AppDelegate.swift in Sources */,
 				8B7881C82A0E739B0073C6AD /* SecondViewController.swift in Sources */,
+				8B7881CC2A0E77B60073C6AD /* TabBarViewController.swift in Sources */,
+				8B7881CA2A0E76C80073C6AD /* ThirdViewController.swift in Sources */,
 				8B7881B42A0E719D0073C6AD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
